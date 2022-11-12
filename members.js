@@ -426,7 +426,33 @@ let members = `[
     "lastname": "Caceres",
     "role": "Covenant Member",
     "date": " September 2022"
+  },
+  {
+    "firstname": "Kiel Cedric",
+    "lastname": "Ramos",
+    "role": "Covenant Member",
+    "date": "November 2022"
+  },
+  {
+    "firstname": "Jon Emil",
+    "lastname": "Surname",
+    "role": "Covenant Member",
+    "date": "November 2022"
+  },
+  {
+    "firstname": "Lailanie",
+    "lastname": "Razon",
+    "role": "Covenant Member",
+    "date": "November 2022"
+  },
+  {
+    "firstname": "Jeremiah T.",
+    "lastname": "Arellano",
+    "role": "Covenant Member",
+    "date": "November 2022"
   }
+
+  
 ]`
 
 const membersNew = JSON.parse(members);
