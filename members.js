@@ -452,7 +452,7 @@ let members = `[
     "date": "November 2022"
   },
   {
-    "firstname": "Gerry ",
+    "firstname": "Gerry",
     "lastname": "Guarino",
     "role": "Covenant Member",
     "date": " November 2022"
