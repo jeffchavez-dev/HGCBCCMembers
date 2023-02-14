@@ -19,18 +19,18 @@ let members = `[
     "role": "Covenant Member",
     "date": "2013"
   },
-  {
-    "firstname": "Christopher",
-    "lastname": "Ledesma",
-    "role": "Associate Member",
-    "date": "2013"
-  },
-  {
-    "firstname": "Lynda",
-    "lastname": "Ledesma",
-    "role": "Associate Member",
-    "date": "2013"
-  },
+//   {
+//     "firstname": "Christopher",
+//     "lastname": "Ledesma",
+//     "role": "Associate Member",
+//     "date": "2013"
+//   },
+//   {
+//     "firstname": "Lynda",
+//     "lastname": "Ledesma",
+//     "role": "Associate Member",
+//     "date": "2013"
+//   },
 {
     "firstname": "Joenel",
     "lastname": "Afable",
