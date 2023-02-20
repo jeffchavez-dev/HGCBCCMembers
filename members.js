@@ -236,18 +236,6 @@ let members = `[
     "date": "2021"
   },
 {
-    "firstname": "Christian",
-    "lastname": "Francisco",
-    "role": "Deacon, Covenant Member",
-    "date": "2021"
-  },
-{
-    "firstname": "Shana",
-    "lastname": "Francisco",
-    "role": "Covenant Member",
-    "date": "2021"
-  },
-{
     "firstname": "Geno Carlo A.",
     "lastname": "Miravalles",
     "role": "Covenant Member",
@@ -563,3 +551,16 @@ cancel.addEventListener('click', clearResult);
 // })
 
 // console.table(ordered);
+
+
+  //     "firstname": "Christian",
+  //     "lastname": "Francisco",
+  //     "role": "Deacon, Covenant Member",
+  //     "date": "2021"
+  //   },
+  // {
+  //     "firstname": "Shana",
+  //     "lastname": "Francisco",
+  //     "role": "Covenant Member",
+  //     "date": "2021"
+  //   },
