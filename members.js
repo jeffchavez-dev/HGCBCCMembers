@@ -444,6 +444,24 @@ let members = `[
     "lastname": "Castillo",
     "role": "Covenant Member",
     "date": " January 2023"
+  },
+  {
+    "firstname": "Jewel",
+    "lastname": "Rodriguez",
+    "role": "Covenant Member",
+    "date": "May 2023"
+  },
+  {
+    "firstname": "Marissa",
+    "lastname": "Rodriguez",
+    "role": "Covenant Member",
+    "date": "May 2023"
+  },
+  {
+    "firstname": "Aiza",
+    "lastname": "Dawal",
+    "role": "Covenant Member",
+    "date": "May 2023"
   }
 
   
