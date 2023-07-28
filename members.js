@@ -11,475 +11,555 @@ let members = `[
     "firstname": "Jeremiah",
     "lastname": "Jangad",
     "role": "Pastor, Covenant Member",
-    "date": "2013"
+    "date": "2013",
+    "gender": "male"
   },
   {
     "firstname": "Mary Joy",
     "lastname": "Jangad",
     "role": "Covenant Member",
-    "date": "2013"
+    "date": "2013",
+    "gender": "female"
+    
   },
 {
     "firstname": "Joenel",
     "lastname": "Afable",
     "role": "Covenant Member",
-    "date": "2013"
+    "date": "2013",
+    "gender": "male"
   },
 {
     "firstname": "Harry",
     "lastname": "Gonzales",
     "role": "Covenant Member",
-    "date": "2014"
+    "date": "2014",
+    "gender": "male"
   },
 {
     "firstname": "Lorenzo",
     "lastname": "Tating Jr.",
     "role": "Deacon, Covenant Member",
-    "date": "2015"
+    "date": "2015",
+    "gender": "male"
   },
 {
     "firstname": "Riza",
     "lastname": "Tating",
     "role": "Covenant Member",
-    "date": "2015"
+    "date": "2015",
+    "gender": "female"
   },
 {
     "firstname": "Jeff",
     "lastname": "Chavez",
     "role": "Deacon, Covenant Member",
-    "date": "2016"
+    "date": "2016",
+    "gender": "male"
   },
 {
     "firstname": "Gloryben",
     "lastname": "Chavez",
     "role": "Covenant Member",
-    "date": "2016"
+    "date": "2016",
+    "gender": "male"
   },
 {
     "firstname": "Eliseo",
     "lastname": "Openio",
     "role": "Covenant Member",
-    "date": "2016"
+    "date": "2016",
+    "gender": "male"
   },
 {
     "firstname": "Elena",
     "lastname": "Openio",
     "role": "Covenant Member",
-    "date": "2016"
+    "date": "2016",
+    "gender": "male"
   },
 {
     "firstname": "Remy",
     "lastname": "Lagucay",
     "role": "Covenant Member",
-    "date": "2016"
+    "date": "2016",
+    "gender": "male"
   },
 {
     "firstname": "Henry",
     "lastname": "Sealongo",
     "role": "Covenant Member",
-    "date": "2016"
+    "date": "2016",
+    "gender": "male"
   },
 {
     "firstname": "Lorna",
     "lastname": "Sealongo",
     "role": "Covenant Member",
-    "date": "2016"
+    "date": "2016",
+    "gender": "male"
   },
 {
     "firstname": "Creziel",
     "lastname": "Mercado",
     "role": "Covenant Member",
-    "date": "2016"
+    "date": "2016",
+    "gender": "male"
   },
 {
     "firstname": "Ruby",
     "lastname": "Sarco",
     "role": "Covenant Member",
-    "date": "2017"
+    "date": "2017",
+    "gender": "male"
   },
 {
     "firstname": "Sam",
     "lastname": "Tacdoro",
     "role": "Covenant Member",
-    "date": "2017"
+    "date": "2017",
+    "gender": "male"
   },
 {
     "firstname": "Divine",
     "lastname": "Tacdoro",
     "role": "Covenant Member",
-    "date": "2017"
+    "date": "2017",
+    "gender": "male"
   },
 {
     "firstname": "Cristina",
     "lastname": "Olo",
     "role": "Covenant Member",
-    "date": "2017"
+    "date": "2017",
+    "gender": "male"
   },
 {
     "firstname": "Jordan",
     "lastname": "Ravanes",
     "role": "Covenant Member",
-    "date": "2018"
+    "date": "2018",
+    "gender": "male"
   },
 {
     "firstname": "Jerry",
     "lastname": "del Mundo",
     "role": "Covenant Member",
-    "date": "2018"
+    "date": "2018",
+    "gender": "male"
   },
 {
     "firstname": "Adora",
     "lastname": "del Mundo",
     "role": "Covenant Member",
-    "date": "2018"
+    "date": "2018",
+    "gender": "male"
   },
 {
     "firstname": "Esther Joi",
     "lastname": "del Mundo",
     "role": "Covenant Member",
-    "date": "2018"
+    "date": "2018",
+    "gender": "male"
   },
 {
     "firstname": "Joshua",
     "lastname": "Figueroa",
     "role": "Covenant Member",
-    "date": "2018"
+    "date": "2018",
+    "gender": "male"
   },
 {
     "firstname": "Jihan",
     "lastname": "Figueroa",
     "role": "Covenant Member",
-    "date": "2018"
+    "date": "2018",
+    "gender": "male"
   },
 {
     "firstname": "Mercy",
     "lastname": "Figueroa",
     "role": "Covenant Member",
-    "date": "2018"
+    "date": "2018",
+    "gender": "male"
   },
 {
     "firstname": "Dhon",
     "lastname": "Timblor",
     "role": "Associate Member",
-    "date": "2018"
+    "date": "2018",
+    "gender": "male"
   },
 {
     "firstname": "Christian David",
     "lastname": "Bare",
     "role": "Covenant Member",
-    "date": "2018"
+    "date": "2018",
+    "gender": "male"
   },
 {
     "firstname": "Kate",
     "lastname": "Bare",
     "role": "Covenant Member",
-    "date": "2018"
+    "date": "2018",
+    "gender": "male"
   },
 {
     "firstname": "Psalm",
     "lastname": "Torres",
     "role": "Covenant Member",
-    "date": "2018"
+    "date": "2018",
+    "gender": "male"
   },
 {
     "firstname": "Christian Joriz",
     "lastname": "Fairbanks",
     "role": "Covenant Member",
-    "date": "2018"
+    "date": "2018",
+    "gender": "male"
   },
 {
     "firstname": "Genevieve",
     "lastname": "Carrillo",
     "role": "Covenant Member",
-    "date": "2018"
+    "date": "2018",
+    "gender": "male"
   },
 {
     "firstname": "Bar",
     "lastname": "Carrillo",
     "role": "Covenant Member",
-    "date": "2018"
+    "date": "2018",
+    "gender": "male"
   },
 {
     "firstname": "Isagani",
     "lastname": "Azur",
     "role": "Covenant Member",
-    "date": "2019"
+    "date": "2019",
+    "gender": "male"
   },
 {
     "firstname": "Chris John",
     "lastname": "Apinan",
     "role": "Covenant Member",
-    "date": "2021"
+    "date": "2021",
+    "gender": "male"
   },
 {
     "firstname": "Junilyn",
     "lastname": "Apinan",
     "role": "Covenant Member",
-    "date": "2021"
+    "date": "2021",
+    "gender": "male"
   },
 {
     "firstname": "Ma. Jesus",
     "lastname": "Solidum",
     "role": "Covenant Member",
-    "date": "2021"
+    "date": "2021",
+    "gender": "male"
   },
 {
     "firstname": "Stephanie Anne",
     "lastname": "Solidum",
     "role": "Covenant Member",
-    "date": "2021"
+    "date": "2021",
+    "gender": "male"
   },
 {
     "firstname": "Sarah Allyssa",
     "lastname": "Solidum",
     "role": "Covenant Member",
-    "date": "2021"
+    "date": "2021",
+    "gender": "male"
   },
 {
     "firstname": "Geno Carlo A.",
     "lastname": "Miravalles",
     "role": "Covenant Member",
-    "date": "2021"
+    "date": "2021",
+    "gender": "male"
   },
 {
     "firstname": "Rochelle Veronica P.",
     "lastname": "Miravalles",
     "role": "Covenant Member",
-    "date": "2021"
+    "date": "2021",
+    "gender": "male"
   },
 {
     "firstname": "Ernest Jay",
     "lastname": "Brun",
     "role": "Covenant Member",
-    "date": "2021"
+    "date": "2021",
+    "gender": "male"
   },
 {
     "firstname": "Erniela Jam",
     "lastname": "Brun",
     "role": "Covenant Member",
-    "date": "2021"
+    "date": "2021",
+    "gender": "male"
   },
 {
     "firstname": "Maria Cecilla G.",
     "lastname": "Azur",
     "role": "Covenant Member",
-    "date": "2021"
+    "date": "2021",
+    "gender": "male"
   },
 {
     "firstname": "John Charles",
     "lastname": "Lazaro",
     "role": "Associate Member",
-    "date": "2021"
+    "date": "2021",
+    "gender": "male"
   },
 {
     "firstname": "Jhoven",
     "lastname": "Asperin",
     "role": "Associate Member",
-    "date": "2021"
+    "date": "2021",
+    "gender": "male"
   },
 {
     "firstname": "David",
     "lastname": "Dawal",
     "role": "Associate Member",
-    "date": "2021"
+    "date": "2021",
+    "gender": "male"
   },
 {
     "firstname": "Randy",
     "lastname": "Marchadesch",
     "role": "Associate Member",
-    "date": "2021"
+    "date": "2021",
+    "gender": "male"
   },
 {
     "firstname": "Armel Jay",
     "lastname": "Mercado",
     "role": "Covenant Member",
-    "date": "2021"
+    "date": "2021",
+    "gender": "male"
   },
 {
     "firstname": "Peter",
     "lastname": "Zambrano",
     "role": "Covenant Member",
-    "date": "2021"
+    "date": "2021",
+    "gender": "male"
   },
 {
     "firstname": "Kristine",
     "lastname": "Duhaylungsod",
     "role": "Associate Member",
-    "date": "September 2021"
+    "date": "September 2021",
+    "gender": "male"
   },
 {
     "firstname": "Tim",
     "lastname": "Duhaylungsod",
     "role": "Associate Member",
-    "date": "September 2021"
+    "date": "September 2021",
+    "gender": "male"
   },
 {
     "firstname": "Flordeliz",
     "lastname": "Manila",
     "role": "Covenant Member",
-    "date": "December 2021"
+    "date": "December 2021",
+    "gender": "male"
   },
 {
     "firstname": "Angelica",
     "lastname": "Fernandez",
     "role": "Covenant Member",
-    "date": "December 2021"
+    "date": "December 2021",
+    "gender": "male"
   },
 {
     "firstname": "Cristine",
     "lastname": "Cance",
     "role": "Covenant Member",
-    "date": "December 2021"
+    "date": "December 2021",
+    "gender": "male"
   },
 {
     "firstname": "Ramon",
     "lastname": "Musngi",
     "role": "Covenant Member",
-    "date": "December 2021"
+    "date": "December 2021",
+    "gender": "male"
   },
 {
     "firstname": "Marissa",
     "lastname": "Musngi",
     "role": "Covenant Member",
-    "date": "December 2021"
+    "date": "December 2021",
+    "gender": "male"
   },
 {
     "firstname": "Aries Jake",
     "lastname": "Montilla",
     "role": "Covenant Member",
-    "date": "December 2021"
+    "date": "December 2021",
+    "gender": "male"
   },
 {
     "firstname": "Regina",
     "lastname": "Montilla",
     "role": "Covenant Member",
-    "date": "December 2021"
+    "date": "December 2021",
+    "gender": "male"
   },
 {
     "firstname": "Junariez",
     "lastname": "Musngi",
     "role": "Covenant Member",
-    "date": "December 2021"
+    "date": "December 2021",
+    "gender": "male"
   },
   {
     "firstname": "Vince",
     "lastname": "Tombaga",
     "role": "Covenant Member",
-    "date": " January 2022"
+    "date": " January 2022",
+    "gender": "male"
   },
   {
     "firstname": "John Philip",
     "lastname": "Erauda",
     "role": "Covenant Member",
-    "date": " September 2022"
+    "date": " September 2022",
+    "gender": "male"
   },
   {
     "firstname": "Mary Uson",
     "lastname": "Erauda",
     "role": "Covenant Member",
-    "date": " September 2022"
+    "date": " September 2022",
+    "gender": "male"
   },
   {
     "firstname": "Steven James",
     "lastname": "Llabres",
     "role": "Covenant Member",
-    "date": " September 2022"
+    "date": " September 2022",
+    "gender": "male"
   },
   {
     "firstname": "Maribel",
     "lastname": "Llabres",
     "role": "Covenant Member",
-    "date": " September 2022"
+    "date": " September 2022",
+    "gender": "male"
   },
   {
     "firstname": "Ronald Jr.",
     "lastname": "Caceres",
     "role": "Covenant Member",
-    "date": " September 2022"
+    "date": " September 2022",
+    "gender": "male"
   },
   {
     "firstname": "Hanna",
     "lastname": "Caceres",
     "role": "Covenant Member",
-    "date": " September 2022"
+    "date": " September 2022",
+    "gender": "male"
   },
   {
     "firstname": "Kiel Cedric",
     "lastname": "Ramos",
     "role": "Covenant Member",
-    "date": "November 2022"
+    "date": "November 2022",
+    "gender": "male"
   },
   {
     "firstname": "Jon Emil",
     "lastname": "Bacus",
     "role": "Covenant Member",
-    "date": "November 2022"
+    "date": "November 2022",
+    "gender": "male"
   },
   {
     "firstname": "Lailanie",
     "lastname": "Dela Cruz",
     "role": "Covenant Member",
-    "date": "November 2022"
+    "date": "November 2022",
+    "gender": "male"
   },
   {
     "firstname": "Jeremiah T",
     "lastname": "Arellano",
     "role": "Covenant Member",
-    "date": "November 2022"
+    "date": "November 2022",
+    "gender": "male"
   },
   {
     "firstname": "Gerry",
     "lastname": "Guarino",
     "role": "Covenant Member",
-    "date": " November 2022"
+    "date": " November 2022",
+    "gender": "male"
   },
   {
     "firstname": "Fanny",
     "lastname": "Guarino",
     "role": "Covenant Member",
-    "date": " November 2022"
+    "date": " November 2022",
+    "gender": "male"
   },
   {
     "firstname": "Lawrence",
     "lastname": "Castillo",
     "role": "Covenant Member",
-    "date": " January 2023"
+    "date": " January 2023",
+    "gender": "male"
   },
   {
     "firstname": "Jewel",
     "lastname": "Rodriguez",
     "role": "Covenant Member",
-    "date": "May 2023"
+    "date": "May 2023",
+    "gender": "male"
   },
   {
     "firstname": "Marissa 'Issa'",
     "lastname": "Rodriguez",
     "role": "Covenant Member",
-    "date": "May 2023"
+    "date": "May 2023",
+    "gender": "male"
   },
   {
     "firstname": "Aizalee",
     "lastname": "Dawal",
     "role": "Covenant Member",
-    "date": "May 2023"
+    "date": "May 2023",
+    "gender": "male"
   },
   {
     "firstname": "Elijah",
     "lastname": "Aquino",
     "role": "Covenant Member",
-    "date": "June 2023"
+    "date": "June 2023",
+    "gender": "male"
   },
   {
     "firstname": "Arrahjane Grace",
     "lastname": "Aquino",
     "role": "Covenant Member",
-    "date": "June 2023"
+    "date": "June 2023",
+    "gender": "male"
   },
   {
     "firstname": "Darren",
     "lastname": "Delbo",
     "role": "Covenant Member",
-    "date": "June 2023"
+    "date": "June 2023",
+    "gender": "male"
   }
 
   
