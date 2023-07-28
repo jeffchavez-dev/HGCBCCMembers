@@ -62,7 +62,7 @@ let members = `[
     "lastname": "Chavez",
     "role": "Covenant Member",
     "date": "2016",
-    "gender": "male"
+    "gender": "female"
   },
 {
     "firstname": "Eliseo",
@@ -76,14 +76,14 @@ let members = `[
     "lastname": "Openio",
     "role": "Covenant Member",
     "date": "2016",
-    "gender": "male"
+    "gender": "female"
   },
 {
     "firstname": "Remy",
     "lastname": "Lagucay",
     "role": "Covenant Member",
     "date": "2016",
-    "gender": "male"
+    "gender": "female"
   },
 {
     "firstname": "Henry",
@@ -97,21 +97,21 @@ let members = `[
     "lastname": "Sealongo",
     "role": "Covenant Member",
     "date": "2016",
-    "gender": "male"
+    "gender": "female"
   },
 {
     "firstname": "Creziel",
     "lastname": "Mercado",
     "role": "Covenant Member",
     "date": "2016",
-    "gender": "male"
+    "gender": "female"
   },
 {
     "firstname": "Ruby",
     "lastname": "Sarco",
     "role": "Covenant Member",
     "date": "2017",
-    "gender": "male"
+    "gender": "female"
   },
 {
     "firstname": "Sam",
@@ -125,14 +125,14 @@ let members = `[
     "lastname": "Tacdoro",
     "role": "Covenant Member",
     "date": "2017",
-    "gender": "male"
+    "gender": "female"
   },
 {
     "firstname": "Cristina",
     "lastname": "Olo",
     "role": "Covenant Member",
     "date": "2017",
-    "gender": "male"
+    "gender": "female"
   },
 {
     "firstname": "Jordan",
@@ -153,14 +153,14 @@ let members = `[
     "lastname": "del Mundo",
     "role": "Covenant Member",
     "date": "2018",
-    "gender": "male"
+    "gender": "female"
   },
 {
     "firstname": "Esther Joi",
     "lastname": "del Mundo",
     "role": "Covenant Member",
     "date": "2018",
-    "gender": "male"
+    "gender": "female"
   },
 {
     "firstname": "Joshua",
@@ -174,14 +174,14 @@ let members = `[
     "lastname": "Figueroa",
     "role": "Covenant Member",
     "date": "2018",
-    "gender": "male"
+    "gender": "female"
   },
 {
     "firstname": "Mercy",
     "lastname": "Figueroa",
     "role": "Covenant Member",
     "date": "2018",
-    "gender": "male"
+    "gender": "female"
   },
 {
     "firstname": "Dhon",
@@ -202,7 +202,7 @@ let members = `[
     "lastname": "Bare",
     "role": "Covenant Member",
     "date": "2018",
-    "gender": "male"
+    "gender": "female"
   },
 {
     "firstname": "Psalm",
@@ -223,7 +223,7 @@ let members = `[
     "lastname": "Carrillo",
     "role": "Covenant Member",
     "date": "2018",
-    "gender": "male"
+    "gender": "female"
   },
 {
     "firstname": "Bar",
@@ -251,28 +251,28 @@ let members = `[
     "lastname": "Apinan",
     "role": "Covenant Member",
     "date": "2021",
-    "gender": "male"
+    "gender": "female"
   },
 {
     "firstname": "Ma. Jesus",
     "lastname": "Solidum",
     "role": "Covenant Member",
     "date": "2021",
-    "gender": "male"
+    "gender": "female"
   },
 {
     "firstname": "Stephanie Anne",
     "lastname": "Solidum",
     "role": "Covenant Member",
     "date": "2021",
-    "gender": "male"
+    "gender": "female"
   },
 {
     "firstname": "Sarah Allyssa",
     "lastname": "Solidum",
     "role": "Covenant Member",
     "date": "2021",
-    "gender": "male"
+    "gender": "female"
   },
 {
     "firstname": "Geno Carlo A.",
@@ -286,7 +286,7 @@ let members = `[
     "lastname": "Miravalles",
     "role": "Covenant Member",
     "date": "2021",
-    "gender": "male"
+    "gender": "female"
   },
 {
     "firstname": "Ernest Jay",
@@ -300,14 +300,14 @@ let members = `[
     "lastname": "Brun",
     "role": "Covenant Member",
     "date": "2021",
-    "gender": "male"
+    "gender": "female"
   },
 {
     "firstname": "Maria Cecilla G.",
     "lastname": "Azur",
     "role": "Covenant Member",
     "date": "2021",
-    "gender": "male"
+    "gender": "female"
   },
 {
     "firstname": "John Charles",
@@ -356,7 +356,7 @@ let members = `[
     "lastname": "Duhaylungsod",
     "role": "Associate Member",
     "date": "September 2021",
-    "gender": "male"
+    "gender": "female"
   },
 {
     "firstname": "Tim",
@@ -370,21 +370,21 @@ let members = `[
     "lastname": "Manila",
     "role": "Covenant Member",
     "date": "December 2021",
-    "gender": "male"
+    "gender": "female"
   },
 {
     "firstname": "Angelica",
     "lastname": "Fernandez",
     "role": "Covenant Member",
     "date": "December 2021",
-    "gender": "male"
+    "gender": "female"
   },
 {
     "firstname": "Cristine",
     "lastname": "Cance",
     "role": "Covenant Member",
     "date": "December 2021",
-    "gender": "male"
+    "gender": "female"
   },
 {
     "firstname": "Ramon",
@@ -398,7 +398,7 @@ let members = `[
     "lastname": "Musngi",
     "role": "Covenant Member",
     "date": "December 2021",
-    "gender": "male"
+    "gender": "female"
   },
 {
     "firstname": "Aries Jake",
@@ -412,7 +412,7 @@ let members = `[
     "lastname": "Montilla",
     "role": "Covenant Member",
     "date": "December 2021",
-    "gender": "male"
+    "gender": "female"
   },
 {
     "firstname": "Junariez",
@@ -440,7 +440,7 @@ let members = `[
     "lastname": "Erauda",
     "role": "Covenant Member",
     "date": " September 2022",
-    "gender": "male"
+    "gender": "female"
   },
   {
     "firstname": "Steven James",
@@ -454,7 +454,7 @@ let members = `[
     "lastname": "Llabres",
     "role": "Covenant Member",
     "date": " September 2022",
-    "gender": "male"
+    "gender": "female"
   },
   {
     "firstname": "Ronald Jr.",
@@ -468,7 +468,7 @@ let members = `[
     "lastname": "Caceres",
     "role": "Covenant Member",
     "date": " September 2022",
-    "gender": "male"
+    "gender": "female"
   },
   {
     "firstname": "Kiel Cedric",
@@ -489,7 +489,7 @@ let members = `[
     "lastname": "Dela Cruz",
     "role": "Covenant Member",
     "date": "November 2022",
-    "gender": "male"
+    "gender": "female"
   },
   {
     "firstname": "Jeremiah T",
@@ -510,7 +510,7 @@ let members = `[
     "lastname": "Guarino",
     "role": "Covenant Member",
     "date": " November 2022",
-    "gender": "male"
+    "gender": "female"
   },
   {
     "firstname": "Lawrence",
@@ -531,14 +531,14 @@ let members = `[
     "lastname": "Rodriguez",
     "role": "Covenant Member",
     "date": "May 2023",
-    "gender": "male"
+    "gender": "female"
   },
   {
     "firstname": "Aizalee",
     "lastname": "Dawal",
     "role": "Covenant Member",
     "date": "May 2023",
-    "gender": "male"
+    "gender": "female"
   },
   {
     "firstname": "Elijah",
@@ -552,7 +552,7 @@ let members = `[
     "lastname": "Aquino",
     "role": "Covenant Member",
     "date": "June 2023",
-    "gender": "male"
+    "gender": "female"
   },
   {
     "firstname": "Darren",
