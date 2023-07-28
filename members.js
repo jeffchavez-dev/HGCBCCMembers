@@ -599,7 +599,7 @@ const findMatches = (wordToMatch, names) => {
   return names.filter(name => {
     const regex = new RegExp(wordToMatch, 'gi');
     return name.firstname.match(regex) || name.lastname.match(regex) 
-          || name.date.match(regex) || name.role.match(regex);
+          || name.date.match(regex) || name.role.match(regex) || name.gender.match(regex);
   })
 }
 
