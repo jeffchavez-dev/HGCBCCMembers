@@ -560,6 +560,20 @@ let members = `[
     "role": "Covenant Member",
     "date": "June 2023",
     "gender": "men"
+  },
+  {
+    "firstname": "Jeffrey 'Popoy'",
+    "lastname": "Nilo",
+    "role": "Covenant Member",
+    "date": "August 2023",
+    "gender": "men"
+  },
+  {
+    "firstname": "Rose Anne",
+    "lastname": "Nilo",
+    "role": "Covenant Member",
+    "date": "August 2023",
+    "gender": "woman"
   }
 
   
