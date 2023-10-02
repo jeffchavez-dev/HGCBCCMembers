@@ -4,7 +4,15 @@
 //   console.log(names[i].innerText);
 // }
 
-
+/*
+  { Deceased
+    "firstname": "Fanny",
+    "lastname": "Guarino",
+    "role": "Covenant Member",
+    "date": " November 2022",
+    "gender": "woman"
+  },
+*/
 
 let members = `[
   {
@@ -505,13 +513,7 @@ let members = `[
     "date": " November 2022",
     "gender": "men"
   },
-  {
-    "firstname": "Fanny",
-    "lastname": "Guarino",
-    "role": "Covenant Member",
-    "date": " November 2022",
-    "gender": "woman"
-  },
+
   {
     "firstname": "Lawrence",
     "lastname": "Castillo",
@@ -594,6 +596,13 @@ let members = `[
     "lastname": "Padua",
     "role": "Covenant Member",
     "date": "August 2023",
+    "gender": "woman"
+  },
+  {
+    "firstname": "Janielle",
+    "lastname": "Fajardo",
+    "role": "Covenant Member",
+    "date": "October 2023",
     "gender": "woman"
   }
 
