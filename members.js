@@ -599,7 +599,7 @@ let members = `[
     "gender": "woman"
   },
   {
-    "firstname": "Janielle",
+    "firstname": "Janielle", 
     "lastname": "Fajardo",
     "role": "Covenant Member",
     "date": "October 2023",
