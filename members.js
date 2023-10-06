@@ -382,7 +382,7 @@ let members = `[
   },
 {
     "firstname": "Angelica",
-    "lastname": "Fernandez",
+    "lastname": "Zambrano",
     "role": "Covenant Member",
     "date": "December 2021",
     "gender": "woman"
