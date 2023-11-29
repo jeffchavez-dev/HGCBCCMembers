@@ -12,6 +12,13 @@
     "date": " November 2022",
     "gender": "woman"
   },
+  { Excommunicated: 11/26/2023
+    "firstname": "Junariez",
+    "lastname": "Musngi",
+    "role": "Covenant Member",
+    "date": "December 2021",
+    "gender": "men"
+  },
 */
 
 let members = `[
@@ -421,13 +428,6 @@ let members = `[
     "role": "Covenant Member",
     "date": "December 2021",
     "gender": "woman"
-  },
-{
-    "firstname": "Junariez",
-    "lastname": "Musngi",
-    "role": "Covenant Member",
-    "date": "December 2021",
-    "gender": "men"
   },
   {
     "firstname": "Vince",
