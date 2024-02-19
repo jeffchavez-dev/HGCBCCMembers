@@ -132,57 +132,6 @@ h2 {
 
    
 }
-.nav-toggle {
-    display: none;
-    position: absolute;
-    cursor: pointer;
-    top: 10px;
-    right: 10px;
-    border: none;
-    border-radius: .5em;
-    padding: .3em;
-    background-color: var(--blue);
-}
-
-.nav-show {
-    display: block;
-    color: white;
-    padding: 1em 1em;
-    opacity: .7;
-}
-.nav-show:hover {
-    opacity: 1;
-    font-weight: bold;
-}
-
-@media (max-width: 700px) {
-    .nav_list {
-        margin-top: 0;
-        display: block;
-        align-items: start;
-        
-    }
-    .nav-bar {
-        margin-top: .5em;
-        height: 0;
-        visibility: hidden;
-    }
-    .nav-visible {
-        visibility: visible;
-        height: auto;  
-    }
-    .nav_link {
-        padding: .5em;
-    }
-
-    .nav-toggle{
-        visibility: visible;
-        display: block;
-        height: auto;  
-    } 
-}
-
-
 
 
 /* sections  */
