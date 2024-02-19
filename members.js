@@ -250,7 +250,7 @@ let members = `[
 {
     "firstname": "Isagani",
     "lastname": "Azur",
-    "role": "Covenant Member",
+    "role": "Deacon, Covenant Member",
     "date": "2019",
     "gender": "men"
   },
