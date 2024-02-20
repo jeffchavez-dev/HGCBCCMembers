@@ -215,127 +215,6 @@ h2 {
 
 
 
-/*about*/
-.about {
-    background-image: url(/images/Members3.jpg);
-    background-position: top;
-    background-size: cover;
-    background-attachment: fixed;
-    margin: 0 auto;
-    padding-bottom: 2em;
-    position: relative;
-}
-
-.about::after {
-    position: absolute;
-    content: "";
-    background-color: var(--green);
-    height: 100%;
-    width: 80%;
-    margin: 0 auto;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    opacity: .4;
-}
-
-.about > * {
-    position: relative;
-    z-index: 10;
-}
-.about-title {
-    color: var(--blue);
-}
-.about-col {
-    margin: 1em 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-}
-.about-subtitle {
-    font-size: .8em;
-    color: var(--white);
-    text-transform: uppercase;
-    font-weight: bolder;
-
-}
-.about-col p {
-    font-size: 1em;
-    margin-top: .5em;
-    width: 80%;
-    font-style: italic;
-    line-height: 1.4;
-    color: var(--white);
-   
-}
-
-
-
-
-
-/*contact us*/
-
-.contact-row {
-    /* display: flex; */
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: .5em;
-}
-.home-section {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.fa {
-    color:var(--green);
-    font-size: 2em;
-    padding: .5em;
-}
-
-.contact_text {
-    font-size: 1em;
-    margin: 1em 0;
-   
-}
-.contact_text a {
-    text-decoration: none;
-    color: var(--green)
-}
-.contact_text a:hover {
-    color: var(--blue)
-}
-
-  
-  
-  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .column, input[type=submit] {
-      width: 100%;
-      margin-top: 0;
-    }
-    .slider {
-        /* width: 100%;
-        height: 40%;
-        border-radius: 10px; */
-    }
-    .hero_main {
-        height: 40vh;
-    }
-
-    .hero_texts {
-        position: absolute;
-        bottom: 1em;
-    }
-    .hero_texts p, .btn {
-        font-size: .8em;
-    }
-  
-  }
-
 
 
   /***********members page******************/
@@ -356,14 +235,21 @@ h2 {
 
 
 /*filter options */
+.filter-section {
+    display: flex;
+    width: 100%
+
+}
 .filter-section > .container {
     margin: 1em auto;
 }
 .filter-options {
     display: flex;
-    margin: 0 2em 0;
-    position: relative;
-    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 300px;
+    max-width: 80%;
+
 }
 
 .filter-options > i {
