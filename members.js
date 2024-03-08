@@ -621,13 +621,13 @@ const displayMembers = () => {
     ` <p>${member.firstname} ${member.lastname}</p>`
   })
 
-  membersCard.innerHTML
+  membersCard.innerHTML = list
 }
 
 const list = document.getElementById('quick-list')
 
-list.addEventListener('click',)
-displayMembers()
+list.addEventListener('click',displayMembers)
+
 
 const allMembersShow = () => {
 
