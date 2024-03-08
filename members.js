@@ -19,14 +19,6 @@
     "date": "December 2021",
     "gender": "men"
   },
-
-  { Gracious Removal 02.2024
-    "firstname": "Christian David",
-    "lastname": "Bare",
-    "role": "Covenant Member",
-    "date": "2018",
-    "gender": "men"
-  },
 */
 
 let members = `[
@@ -205,6 +197,13 @@ let members = `[
     "role": "Covenant Member",
     "date": "2018",
     "gender": "woman"
+  },
+{
+    "firstname": "Christian David",
+    "lastname": "Bare",
+    "role": "Covenant Member",
+    "date": "2018",
+    "gender": "men"
   },
 {
     "firstname": "Kate",
