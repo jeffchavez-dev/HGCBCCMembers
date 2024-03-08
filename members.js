@@ -616,12 +616,13 @@ const cancel = document.getElementById('clear-result');
 const searchMembers = document.getElementById('searchButton');
 
 const displayMembers = () => {
-  const list = membersNew.map(member => {
+  const list = membersNew.map(member => 
     // console.log(`${member.firstname} ${member.lastname}`)
-    ` <p>${member.firstname} ${member.lastname}</p>`
-  })
-
-  membersCard.innerHTML = list
+    ` <li>${member.firstname} ${member.lastname}</li>`
+  ).join('')
+  const ul = document.createElement('ul')
+  ul.appendChild(list)
+  membersCard.innerHTML = ul
 }
 
 const list = document.getElementById('quick-list')
