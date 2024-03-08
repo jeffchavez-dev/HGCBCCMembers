@@ -618,7 +618,6 @@ const searchMembers = document.getElementById('searchButton');
 const allMembersShow = () => {
 
   const memberList = membersNew.map(member => 
- 
     ` <div class="col col_image">
         <div> <img class="member__image" src="/images/${member.firstname}.jpg"></div>
         <h2 class="main-members-name">${member.firstname} ${member.lastname}</h2>
