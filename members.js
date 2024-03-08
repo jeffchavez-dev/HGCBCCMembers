@@ -617,10 +617,16 @@ const searchMembers = document.getElementById('searchButton');
 
 const displayMembers = () => {
   const list = membersNew.map(member => {
-    console.log(`${member.firstname} ${member.lastname}`)
+    // console.log(`${member.firstname} ${member.lastname}`)
+    ` <p>${member.firstname} ${member.lastname}</p>`
   })
+
+  membersCard.innerHTML
 }
 
+const list = document.getElementById('quick-list')
+
+list.addEventListener('click',)
 displayMembers()
 
 const allMembersShow = () => {
