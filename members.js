@@ -19,6 +19,14 @@
     "date": "December 2021",
     "gender": "men"
   },
+  ,
+{ Gracious Removal \: 02.2024
+    "firstname": "Dhon",
+    "lastname": "Timblor",
+    "role": "Associate Member",
+    "date": "2018",
+    "gender": "men"
+  }
 */
 
 let members = `[
