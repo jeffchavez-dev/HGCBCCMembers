@@ -268,7 +268,10 @@ h2 {
     margin: .5em;
     border: 2px solid #4d7701;
 }
-
+#quick-list a {
+    text-decoration: none;
+    color: white;
+}
 .clear-button:hover, #quick-list:hover {
     cursor: pointer;
     color: #4d7701;
