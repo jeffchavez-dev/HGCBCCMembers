@@ -658,12 +658,14 @@ const displayMatches = () => {
     showTotalResults()
 
     const html =  matchArray.map(member => 
+      console.log(`${member.firstname} ${member.lastname}`)
       ` <div class="col col_image">
       <div> <img class="member__image" src="/images/${member.firstname}.jpg"></div>
       <h2 class="main-members-name">${member.firstname} ${member.lastname}</h2>
       <p class="member-description">${member.role}</p>
       <p>Since: ${member.date}</p>
         </div>`  
+        
     )
     const showMembers = document.getElementById("row").innerHTML = html;
 
