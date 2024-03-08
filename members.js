@@ -618,6 +618,7 @@ const searchMembers = document.getElementById('searchButton');
 const allMembersShow = () => {
 
   const memberList = membersNew.map(member => 
+ 
     ` <div class="col col_image">
         <div> <img class="member__image" src="/images/${member.firstname}.jpg"></div>
         <h2 class="main-members-name">${member.firstname} ${member.lastname}</h2>
@@ -658,7 +659,6 @@ const displayMatches = () => {
     showTotalResults()
 
     const html =  matchArray.map(member => 
-      console.log(`${member.firstname} ${member.lastname}`)
       ` <div class="col col_image">
       <div> <img class="member__image" src="/images/${member.firstname}.jpg"></div>
       <h2 class="main-members-name">${member.firstname} ${member.lastname}</h2>
