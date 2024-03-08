@@ -622,7 +622,6 @@ const displayMembers = () => {
       li.textContent = `${member.firstname} ${member.lastname}`;
       ul.appendChild(li);
   })  
-  
   membersCard.innerHTML = '';  // Clear the existing content
   membersCard.appendChild(ul);
 }
