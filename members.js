@@ -615,6 +615,14 @@ const membersCard = document.getElementById("row");
 const cancel = document.getElementById('clear-result');
 const searchMembers = document.getElementById('searchButton');
 
+const displayMembers = () => {
+  const list = membersNew.map(member => {
+    console.log(`${member.firstname} ${member.lastname}`)
+  })
+}
+
+displayMembers()
+
 const allMembersShow = () => {
 
   const memberList = membersNew.map(member => 
