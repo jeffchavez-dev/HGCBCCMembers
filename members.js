@@ -616,13 +616,15 @@ const cancel = document.getElementById('clear-result');
 const searchMembers = document.getElementById('searchButton');
 
 const displayMembers = () => {
-  const list = membersNew.map(member => 
-    // console.log(`${member.firstname} ${member.lastname}`)
-    ` <li>${member.firstname} ${member.lastname}</li>`
-  ).join('')
-  const ul = document.createElement('ul')
-  ul.appendChild(list)
-  membersCard.innerHTML = ul
+  const ul = document.createElement('ol')
+  membersNew.forEach(member => {
+      const li = document.createElement('li')
+      li.textContent = `${member.firstname} ${member.lastname}`;
+      ul.appendChild(li);
+  })  
+  
+  membersCard.innerHTML = '';  // Clear the existing content
+  membersCard.appendChild(ul);
 }
 
 const list = document.getElementById('quick-list')
