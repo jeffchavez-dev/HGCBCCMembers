@@ -613,7 +613,7 @@ let members = `[
 const membersNew = JSON.parse(members);
 const total = membersNew.length;
 const membersCard = document.getElementById("row");
-const cancel = document.getElementById('clear-result');
+const cancel = document.getElementById('reset');
 const searchMembers = document.getElementById('searchButton');
 
 const displayMembers = () => {
