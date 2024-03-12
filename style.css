@@ -247,7 +247,7 @@ h2 {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    width: 500px;
+    width: 600px;
     max-width: 80%;
 
 }
@@ -259,7 +259,7 @@ h2 {
    font-size: 1.5em;
    font-weight: bold;
 }
-.reset, #quick-list, #sort-list {
+.reset, #quick-list, .sorting {
     background-color: #4d7701;
     color: white;
     width: 90%;
