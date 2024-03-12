@@ -235,15 +235,12 @@ h2 {
 
 
 /*filter options */
-.filter-section {
+.filter-section, .sorting {
     display: flex;
     flex-direction: row;
-    width: 100%;
     margin: 1em auto;
     justify-content: flex-start;
     align-items: center;
-
-
 }
 
 .filter-options {
@@ -273,7 +270,7 @@ h2 {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    width: 100px;
+    
 }
 
 .reset:hover, #quick-list:hover {
