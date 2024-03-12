@@ -237,17 +237,17 @@ h2 {
 /*filter options */
 .filter-section {
     display: flex;
-    width: 100%
+    flex-direction: row;
+    width: 100%;
+    margin: 1em auto;
+    justify-content: flex-start;
+    align-items: center;
+
 
 }
-.filter-section > .container {
-    margin: 1em auto;
-}
+
 .filter-options {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    width: 600px;
+    width: 500px;
     max-width: 80%;
 
 }
