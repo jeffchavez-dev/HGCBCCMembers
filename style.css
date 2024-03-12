@@ -266,7 +266,7 @@ h2 {
     font-size: .7em;
     padding: .5em 2em;
     margin: .5em;
-    border: 2px solid #4d7701;
+    border: 1px solid #4d7701;
 }
 
 .reset:hover, #quick-list:hover {
