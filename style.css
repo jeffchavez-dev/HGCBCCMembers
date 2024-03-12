@@ -259,7 +259,7 @@ h2 {
    font-size: 1.5em;
    font-weight: bold;
 }
-.reset, #quick-list, .sorting {
+.reset, #quick-list {
     background-color: #4d7701;
     color: white;
     width: 90%;
@@ -267,6 +267,13 @@ h2 {
     padding: .5em 2em;
     margin: .5em;
     border: 1px solid #4d7701;
+}
+
+.sorting {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100px;
 }
 
 .reset:hover, #quick-list:hover {

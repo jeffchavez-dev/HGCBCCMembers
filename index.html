@@ -31,11 +31,18 @@
                         <div>  <button class="reset" id="reset" type="reset" >Reset</button></div>
                         <div><button id="quick-list" type="button">List</button></div>
                         <!-- <div><button id="sort-list" type="button">Sort</button></div> -->
-                        <div>
-                            <label for="sorting" class="sorting">Sort by:</label>
-                        </div>
-   
+                        
     </section>
+    <section class="sorting">
+        <label for="sorting" class="sorting">Sort by:</label>
+        <select class="sorting" id="sorting">
+            <option value="firstName">First Name</option>
+            <option value="lastName">Last Name</option>
+            <option value="date">Date</option>
+
+        </select>
+    </section>
+    
     <main class="main-members">
         <div class="button__back"><a href="#top"> <span>&uArr; </span><br> Total: <p class="showTotal" id="showTotal"></p> </a></div>
         <div class="container">
