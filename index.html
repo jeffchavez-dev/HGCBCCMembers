@@ -23,21 +23,22 @@
                     <h1 class="header__title header__title-mobile"><a href="https://www.facebook.com/heraldofgracecavite" target="_blank">HGCBCC Members</a></h1>  
         </div>
     </header>
-        <section class="filter-section" id="top">
-        
-                    <div class="filter-options">           
-                            <input class="search-input" type="text" id="searchButton" placeholder="Search members (name, year)...">   
-                    </div>                  
-                            <div>  <button class="reset" id="reset" type="reset" >Reset</button></div>
-                            <div><button id="quick-list" type="button">List</button></div>            
-        </section>
-        <section class="sorting">
-            <label for="sorting" class="">Sort by:</label>
-            <select class="" id="sorting">
-                <option value="firstName">First Name</option>
-                <option value="lastName">Last Name</option>
-                <option value="date">Date</option>
-            </select>
+        <section class="toolbar">
+            <div class="filter-section" id="top">
+                        <div class="search-bar">
+                                <input class="search-input" type="text" id="searchButton" placeholder="Search members">
+                        </div>
+                                <div>  <button class="reset" id="reset" type="reset" >Reset</button></div>
+                                <div><button id="quick-list" type="button">List</button></div>
+            </div>
+            <div class="sorting">
+                <label for="sort-list" class="sort-label">Sort by:</label>
+                <select class="sort-options" id="sort-list">
+                    <option value="firstName">First Name</option>
+                    <option value="lastName">Last Name</option>
+                    <option value="date">Date</option>
+                </select>
+            </div>
         </section>
 
     <main class="main-members">
