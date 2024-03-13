@@ -723,7 +723,7 @@ sortData = () => {
     return 0;
   })
 
-  allMembersShow(data)
+  allMembersShow(membersNew)
 
 }
 
