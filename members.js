@@ -717,7 +717,7 @@ cancel.addEventListener('click', clearResult);
 sortData = () => {
   const sortBy = document.getElementById('sort-list').value
 
-  displayMembers.sort((a,b) => {
+  membersNew.sort((a,b) => {
     if (a[sortBy] < b[sortBy]) return -1;
     if (a[sortBy] > b[sortBy]) return 1;
     return 0;
