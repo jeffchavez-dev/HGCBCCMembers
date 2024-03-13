@@ -684,7 +684,7 @@ const displayMatches = () => {
 
     if (matchArray.length == 0) {
       document.getElementById("row").innerHTML = `<h2 class="results">No Results Found</h2>`;
-      console.log('no results');
+  
     } 
 
     return showMembers;
