@@ -722,6 +722,10 @@ sortData = () => {
     if (a[sortBy] > b[sortBy]) return 1;
     return 0;
   })
+
+  updateUI(data)
+
+
 }
 // searchYear.addEventListener('change', displayMatches(value2));
 
