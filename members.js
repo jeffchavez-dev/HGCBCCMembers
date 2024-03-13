@@ -714,15 +714,14 @@ sortData = () => {
 
 const showSortedData = (sortedData) => {
   const html =  sortedData.map(member => 
-    ` <div class="col col_image">
-    <div> <img class="member__image" src="/images/${member.firstname}.jpg"></div>
-    <h2 class="main-members-name">${member.firstname} ${member.lastname}</h2>
-    <p class="member-description">${member.role}</p>
-    <p>Since: ${member.date}</p>
-      </div>`     
-  )
-
-  membersCard.innerHTML = html.join('')
+      ` <div class="col col_image">
+      <div> <img class="member__image" src="/images/${member.firstname}.jpg"></div>
+      <h2 class="main-members-name">${member.firstname} ${member.lastname}</h2>
+      <p class="member-description">${member.role}</p>
+      <p>Since: ${member.date}</p>
+        </div>`     
+    )
+    membersCard.innerHTML = html.join('')
 }
 sorter.addEventListener('change', sortData)
 
