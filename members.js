@@ -616,7 +616,7 @@ const membersCard = document.getElementById("row");
 const cancel = document.getElementById('reset');
 const searchMembers = document.getElementById('searchButton');
 
-const displayMembers = () => {
+const displayMembersList = () => {
   const ul = document.createElement('ol')
   membersNew.forEach(member => {
       const li = document.createElement('li')
@@ -628,12 +628,10 @@ const displayMembers = () => {
 }
 
 const list = document.getElementById('quick-list')
-
-list.addEventListener('click',displayMembers)
+list.addEventListener('click',displayMembersList)
 
 
 const allMembersShow = () => {
-
   const memberList = membersNew.map(member => 
     ` <div class="col col_image">
         <div> <img class="member__image" src="/images/${member.firstname}.jpg"></div>
@@ -642,18 +640,17 @@ const allMembersShow = () => {
         <p>Since: ${member.date}</p>
   </div>`  
   )
-  const showMembers = membersCard.innerHTML = memberList;
+  membersCard.innerHTML = memberList;
+
+  const showTotal = () => { 
+    const myText = document.getElementById("showTotal");
+    myText.innerText = total;
+  } 
+  showTotal()
+  
 }
 
 allMembersShow()
-
-const showTotal = () => { 
-  const myText = document.getElementById("showTotal");
-  myText.innerText = total;
-} 
-showTotal()
-
-
 
 
 const findMatches = (wordToMatch, names) => {
