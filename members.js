@@ -709,14 +709,12 @@ sortData = () => {
     return 0;
   })
 
-  showAllMembers(membersNew)
-  console.log(membersNew)
 }
 
 const showSortedData = () => {
-  
+
 }
-sortData()
+
 
 
 // searchYear.addEventListener('change', displayMatches(value2));
