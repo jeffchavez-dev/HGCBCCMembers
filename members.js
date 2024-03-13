@@ -677,16 +677,13 @@ const displayMatches = () => {
       <h2 class="main-members-name">${member.firstname} ${member.lastname}</h2>
       <p class="member-description">${member.role}</p>
       <p>Since: ${member.date}</p>
-        </div>`  
-        
+        </div>`     
     )
     const showMembers = document.getElementById("row").innerHTML = html;
 
     if (matchArray.length == 0) {
       document.getElementById("row").innerHTML = `<h2 class="results">No Results Found</h2>`;
-  
     } 
-
     return showMembers;
 }
 
