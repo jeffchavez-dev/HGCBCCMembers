@@ -699,22 +699,34 @@ const clearResult = () => {
 
 cancel.addEventListener('click', clearResult);
 
+const sorter = document.getElementById('sort-list')
 
 sortData = () => {
-  const sortBy = document.getElementById('sort-list').value
-
+  const sortBy = sorter.value
   membersNew.sort((a,b) => {
     if (a[sortBy] < b[sortBy]) return -1;
     if (a[sortBy] > b[sortBy]) return 1;
     return 0;
   })
-
+  console.log('data sorted')
+  showSortedData(membersNew)
 }
 
-const showSortedData = () => {
+const showSortedData = (sortedData) => {
+  const html =  sortedData.map(member => 
+    ` <div class="col col_image">
+    <div> <img class="member__image" src="/images/${member.firstname}.jpg"></div>
+    <h2 class="main-members-name">${member.firstname} ${member.lastname}</h2>
+    <p class="member-description">${member.role}</p>
+    <p>Since: ${member.date}</p>
+      </div>`     
+  )
 
+  membersCard = html.join('')
 }
 
+
+sortBy.addEventListener('change', sortData)
 
 
 // searchYear.addEventListener('change', displayMatches(value2));
