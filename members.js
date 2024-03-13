@@ -713,7 +713,9 @@ sortData = () => {
   console.log(membersNew)
 }
 
-
+const showSortedData = () => {
+  
+}
 sortData()
 
 
