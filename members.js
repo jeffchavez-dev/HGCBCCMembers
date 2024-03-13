@@ -617,14 +617,14 @@ const cancel = document.getElementById('reset');
 const searchMembers = document.getElementById('searchInput');
 
 const displayMembersList = () => {
-  const ul = document.createElement('ol')
+  const ol = document.createElement('ol')
   membersNew.forEach(member => {
       const li = document.createElement('li')
       li.textContent = `${member.firstname} ${member.lastname}`;
-      ul.appendChild(li);
+      ol.appendChild(li);
   })  
   membersCard.innerHTML = '';  // Clear the existing content
-  membersCard.appendChild(ul);
+  membersCard.appendChild(ol);
 }
 
 const list = document.getElementById('quick-list')
