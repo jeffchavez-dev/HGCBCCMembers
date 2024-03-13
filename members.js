@@ -614,7 +614,7 @@ const membersNew = JSON.parse(members);
 const total = membersNew.length;
 const membersCard = document.getElementById("row");
 const cancel = document.getElementById('reset');
-const searchMembers = document.getElementById('searchButton');
+const searchMembers = document.getElementById('searchInput');
 
 const displayMembersList = () => {
   const ul = document.createElement('ol')
@@ -687,15 +687,7 @@ const displayMatches = () => {
     return showMembers;
 }
 
-
-if (searchMembers.value !== "") {
-  console.log('nothing here');
-  cancel.classList.remove('.visible');
-} 
-
-searchMembers.addEventListener('change', displayMatches);
 searchMembers.addEventListener('keyup', displayMatches);
-
 
 
 const clearResult = () => {
