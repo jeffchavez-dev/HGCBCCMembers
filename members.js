@@ -724,8 +724,11 @@ sortData = () => {
   })
 
   allMembersShow(membersNew)
-
+  console.log(membersNew)
 }
+
+
+sortData()
 
 
 // searchYear.addEventListener('change', displayMatches(value2));
