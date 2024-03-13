@@ -631,7 +631,7 @@ const list = document.getElementById('quick-list')
 list.addEventListener('click',displayMembersList)
 
 
-const allMembersShow = () => {
+const showAllMembers = () => {
   const memberList = membersNew.map(member => 
     ` <div class="col col_image">
         <div> <img class="member__image" src="/images/${member.firstname}.jpg"></div>
@@ -650,7 +650,7 @@ const allMembersShow = () => {
   
 }
 
-allMembersShow()
+showAllMembers()
 
 
 const findMatches = (wordToMatch, names) => {
@@ -692,7 +692,7 @@ searchMembers.addEventListener('keyup', displayMatches);
 
 const clearResult = () => {
   const clear = searchMembers.value = "";
-  allMembersShow();
+  showAllMembers();
   showTotal();
   return clear;
 }
@@ -709,7 +709,7 @@ sortData = () => {
     return 0;
   })
 
-  allMembersShow(membersNew)
+  showAllMembers(membersNew)
   console.log(membersNew)
 }
 
