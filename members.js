@@ -722,11 +722,9 @@ const showSortedData = (sortedData) => {
       </div>`     
   )
 
-  membersCard = html.join('')
+  membersCard.innerHTML = html.join('')
 }
-
-
-sortBy.addEventListener('change', sortData)
+sorter.addEventListener('change', sortData)
 
 
 // searchYear.addEventListener('change', displayMatches(value2));
