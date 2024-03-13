@@ -712,6 +712,17 @@ const clearResult = () => {
 }
 
 cancel.addEventListener('click', clearResult);
+
+
+sortData = () => {
+  const sortBy = document.getElementById('sort-list')
+
+  displayMembers.sort((a,b) => {
+    if (a[sortBy] < b[sortBy]) return -1;
+    if (a[sortBy] > b[sortBy]) return 1;
+    return 0;
+  })
+}
 // searchYear.addEventListener('change', displayMatches(value2));
 
 
