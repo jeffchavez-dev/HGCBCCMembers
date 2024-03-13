@@ -715,7 +715,7 @@ cancel.addEventListener('click', clearResult);
 
 
 sortData = () => {
-  const sortBy = document.getElementById('sort-list')
+  const sortBy = document.getElementById('sort-list').value
 
   displayMembers.sort((a,b) => {
     if (a[sortBy] < b[sortBy]) return -1;
@@ -723,10 +723,11 @@ sortData = () => {
     return 0;
   })
 
-  updateUI(data)
-
+  allMembersShow(data)
 
 }
+
+
 // searchYear.addEventListener('change', displayMatches(value2));
 
 
