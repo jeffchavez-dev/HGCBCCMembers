@@ -27,6 +27,14 @@
     "date": "2018",
     "gender": "men"
   }
+  ,
+{ Resigned: April 15, 2024
+    "firstname": "Cristine",
+    "lastname": "Cance",
+    "role": "Covenant Member",
+    "date": "December 2021",
+    "gender": "woman"
+  }
 */
 
 let members = `[
