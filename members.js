@@ -694,7 +694,9 @@ const clearResult = () => {
   return clear;
 }
 
-reset.addEventListener('click', () => location.onload());
+reset.addEventListener('click', () => {
+  location.onload()
+});
 
 
 
