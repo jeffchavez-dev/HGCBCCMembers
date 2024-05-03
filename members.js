@@ -695,34 +695,44 @@ sortData = () => {
   membersNew.sort((a,b) => {
 
 
-    // // If sorting by date, extract the year part for comparison
-    // if (sortBy === 'date') {
-    //   const yearA = parseInt(a[sortBy].split(' ')[1]); // Extract year from date string
-    //   const yearB = parseInt(b[sortBy].split(' ')[1]); // Extract year from date string
-    //   if (yearA < yearB) return -1;
-    //   if (yearA > yearB) return 1;
-    //   return 0;
-    // }
-    // // For other fields, compare them directly
-    // if (a[sortBy] < b[sortBy]) return -1;
-    // if (a[sortBy] > b[sortBy]) return 1;
-    // return 0;
-
-
-    switch (sortBy) {
-      case "firstName":
-        return a.firstname.localeCompare(b.firstname);
-      case "lastName":
-        return a.lastname.localeCompare(b.lastname);
-      case "date":
-        return a.date.localeCompare(b.date)
-      default:
-        
-        return a.role - b.role;
+    // If sorting by date, extract the year part for comparison
+    if (sortBy === 'date') {
+      const yearA = parseInt(a[sortBy].split(' ')[1]); // Extract year from date string
+      const yearB = parseInt(b[sortBy].split(' ')[1]); // Extract year from date string
+      console.log('Year A:', yearA);
+      console.log('Year B:', yearB);
+      if (yearA < yearB) return -1;
+      if (yearA > yearB) return 1;
+      return 0;
+    } else {
+       switch (sortBy) {
+          case "firstName":
+            return a.firstname.localeCompare(b.firstname);
+          case "lastName":
+            return a.lastname.localeCompare(b.lastname);
+          default:
+            console.log('data sorted')
+            return a.role - b.role;
+       }
     }
+    // For other fields, compare them directly
+   
+
+
+    // switch (sortBy) {
+    //   case "firstName":
+    //     return a.firstname.localeCompare(b.firstname);
+    //   case "lastName":
+    //     return a.lastname.localeCompare(b.lastname);
+    //   case "date":
+    //     return a.date.localeCompare(b.date)
+    //   default:
+        
+    //     return a.role - b.role;
+    // }
     
   })
-  console.log('data sorted')
+  
   showSortedData(membersNew)
 }
 
