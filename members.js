@@ -610,7 +610,7 @@ let members = `[
 const membersNew = JSON.parse(members);
 const total = membersNew.length;
 const membersCard = document.getElementById("row");
-const cancel = document.getElementById('reset');
+const reset = document.getElementById('reset');
 const searchMembers = document.getElementById('searchInput');
 
 const displayMembersList = () => {
@@ -694,7 +694,7 @@ const clearResult = () => {
   return clear;
 }
 
-cancel.addEventListener('click', () => location.onload());
+reset.addEventListener('click', () => location.onload());
 
 
 
