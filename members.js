@@ -693,8 +693,6 @@ const sorter = document.getElementById('sort-list')
 sortData = () => {
   const sortBy = sorter.value
   membersNew.sort((a,b) => {
-
-
     // If sorting by date, extract the year part for comparison
     if (sortBy === 'date') {
       const yearA = parseInt(a[sortBy].split(' ')[1]); // Extract year from date string
@@ -715,10 +713,6 @@ sortData = () => {
             return a.role - b.role;
        }
     }
-    // For other fields, compare them directly
-   
-
-
     // switch (sortBy) {
     //   case "firstName":
     //     return a.firstname.localeCompare(b.firstname);
@@ -732,7 +726,7 @@ sortData = () => {
     // }
     
   })
-  
+
   showSortedData(membersNew)
 }
 
