@@ -686,14 +686,6 @@ const displayMatches = () => {
 
 searchMembers.addEventListener('keyup', displayMatches);
 
-
-const clearResult = () => {
-  const clear = searchMembers.value = "";
-  showAllMembers();
-  showTotal();
-  return clear;
-}
-
 reset.addEventListener('click', () => location.reload());
 
 
