@@ -693,6 +693,22 @@ const sorter = document.getElementById('sort-list')
 sortData = () => {
   const sortBy = sorter.value
   membersNew.sort((a,b) => {
+
+
+    // // If sorting by date, extract the year part for comparison
+    // if (sortBy === 'date') {
+    //   const yearA = parseInt(a[sortBy].split(' ')[1]); // Extract year from date string
+    //   const yearB = parseInt(b[sortBy].split(' ')[1]); // Extract year from date string
+    //   if (yearA < yearB) return -1;
+    //   if (yearA > yearB) return 1;
+    //   return 0;
+    // }
+    // // For other fields, compare them directly
+    // if (a[sortBy] < b[sortBy]) return -1;
+    // if (a[sortBy] > b[sortBy]) return 1;
+    // return 0;
+
+
     switch (sortBy) {
       case "firstName":
         return a.firstname.localeCompare(b.firstname);
@@ -709,6 +725,10 @@ sortData = () => {
   console.log('data sorted')
   showSortedData(membersNew)
 }
+
+
+
+
 
 const showSortedData = (sortedData) => {
   const html =  sortedData.map(member => 
