@@ -694,9 +694,9 @@ sortData = () => {
   const sortBy = sorter.value
   membersNew.sort((a,b) => {
     switch (sortBy) {
-      case "firstname":
+      case "firstName":
         return a.firstname.localeCompare(b.firstname);
-      case "lastname":
+      case "lastName":
         return a.lastname.localeCompare(b.lastname);
       case "date":
         return a.date.localeCompare(b.date)
