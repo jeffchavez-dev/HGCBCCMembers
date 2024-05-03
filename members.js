@@ -700,6 +700,8 @@ const clearResult = () => {
 
 cancel.addEventListener('click', clearResult);
 
+windows 
+
 const sorter = document.getElementById('sort-list')
 
 sortData = () => {

@@ -365,6 +365,9 @@ h2 {
     .member__image {
         width: 100%;
     }
+    .toolbar {
+        flex-direction: column;
+    }
 
 }
 
