@@ -688,16 +688,23 @@ searchMembers.addEventListener('keyup', displayMatches);
 
 reset.addEventListener('click', () => location.reload());
 
-
-
 const sorter = document.getElementById('sort-list')
 
 sortData = () => {
   const sortBy = sorter.value
   membersNew.sort((a,b) => {
-    if (a[sortBy] < b[sortBy]) return -1;
-    if (a[sortBy] > b[sortBy]) return 1;
-    return 0;
+    switch (sortBy) {
+      case "firstname":
+        return a.firstname.localeCompare(b.firstname);
+      case "lastname":
+        return a.lastname.localeCompare(b.lastname);
+      case "date":
+        return a.date.localeCompare(b.date)
+      default:
+        
+        return a.role - b.role;
+    }
+    
   })
   console.log('data sorted')
   showSortedData(membersNew)
