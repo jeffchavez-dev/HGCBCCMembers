@@ -698,9 +698,9 @@ const clearResult = () => {
   return clear;
 }
 
-cancel.addEventListener('click', clearResult);
+cancel.addEventListener('click', () => location.onload());
 
-windows 
+
 
 const sorter = document.getElementById('sort-list')
 
