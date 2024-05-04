@@ -623,6 +623,13 @@ let members = `[
     "role": "Covenant Member",
     "date": "2024",
     "gender": "woman"
+  },
+  {
+    "firstname": "Pablo", 
+    "lastname": "",
+    "role": "Covenant Member",
+    "date": "2024",
+    "gender": "woman"
   }
 
   
