@@ -680,20 +680,22 @@ const showAllMembers = () => {
   } 
   showTotal()
 
+  const memberImages = document.querySelectorAll('.member__image'); // Select all member images
 
+  const showModal = (event) => {
+    const img = document.createElement('img');
+    const memberFirstName = event.currentTarget.getAttribute('src').replace('/images/', '').replace('.jpg', '');
+    img.src = `/images/${memberFirstName}.jpg`;
+    imageModal.appendChild(img);
+    imageModal.classList.add('modal'); // Add the 'modal' class to the modal container
+    console.log('Modal');
+  };
+
+  memberImages.forEach(memberImage => { // Attach event listener to each member image
+    memberImage.addEventListener('click', showModal);
+  });
   
-    const memberImage = document.querySelector('.member__image')
-    const imageModal = document.querySelector('.image-modal')
-
-    const showModal = () => {
-      const img = document.createElement('img')
-      img.src = `/images/${member.firstname}.jpg`
-      imageModal.appendChild(img)
-      memberImage.classList.toggle('.modal')
-      console.log('Modal')
-    }
-
-    memberImage.addEventListener('click', showModal)
+    
       
 }
 
