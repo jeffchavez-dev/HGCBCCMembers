@@ -720,9 +720,12 @@ const displayMatches = () => {
 }
 
 
+const memberImage = document.querySelector('.member__image')
 const imageModal = document.querySelector('.image-modal')
+
+memberImage.addEventListener('click', )
 const showModal = () => {
-  
+    memberImage.classList.toggle('.modal')
 }
 searchMembers.addEventListener('keyup', displayMatches);
 
