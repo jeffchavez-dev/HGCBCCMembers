@@ -343,6 +343,11 @@ h2 {
     filter: blur(0px);
 }
 
+
+.modal {
+    width: 80%;
+}
+
 @media (max-width:800px) {
     .col {
         width: 40%;
