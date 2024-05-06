@@ -680,6 +680,8 @@ const showAllMembers = () => {
   } 
   showTotal()
 
+    const imageModal = document.querySelector('.image-modal')
+
   const memberImages = document.querySelectorAll('.member__image'); // Select all member images
 
   const showModal = (event) => {
