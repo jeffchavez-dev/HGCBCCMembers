@@ -719,6 +719,11 @@ const displayMatches = () => {
     return showMembers;
 }
 
+
+const imageModal = document.querySelector('.image-modal')
+const showModal = () => {
+  
+}
 searchMembers.addEventListener('keyup', displayMatches);
 
 reset.addEventListener('click', () => location.reload());
