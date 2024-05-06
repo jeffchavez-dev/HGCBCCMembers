@@ -619,14 +619,14 @@ let members = `[
   },
   {
     "firstname": "Robert", 
-    "lastname": "",
+    "lastname": "Paz",
     "role": "Covenant Member",
     "date": "2024",
     "gender": "men"
   },
   {
     "firstname": "Pablo", 
-    "lastname": "",
+    "lastname": "Reyes Jr.",
     "role": "Covenant Member",
     "date": "2024",
     "gender": "men"
