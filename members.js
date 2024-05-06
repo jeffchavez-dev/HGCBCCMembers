@@ -679,7 +679,22 @@ const showAllMembers = () => {
     myText.innerText = total;
   } 
   showTotal()
+
+
   
+    const memberImage = document.querySelector('.member__image')
+    const imageModal = document.querySelector('.image-modal')
+
+    const showModal = () => {
+      memberImage.classList.toggle('.modal')
+      console.log('Modal')
+    }
+
+    memberImage.addEventListener('click', () => {
+      memberImage.classList.toggle('.modal')
+      console.log('Modal')
+    })
+      
 }
 
 showAllMembers()
@@ -720,13 +735,7 @@ const displayMatches = () => {
 }
 
 
-const memberImage = document.querySelector('.member__image')
-const imageModal = document.querySelector('.image-modal')
 
-memberImage.addEventListener('click', )
-const showModal = () => {
-    memberImage.classList.toggle('.modal')
-}
 searchMembers.addEventListener('keyup', displayMatches);
 
 reset.addEventListener('click', () => location.reload());
