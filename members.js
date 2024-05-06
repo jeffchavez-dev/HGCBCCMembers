@@ -686,6 +686,8 @@ const showAllMembers = () => {
     const imageModal = document.querySelector('.image-modal')
 
     const showModal = () => {
+      const img = document.createElement('img')
+      imageModal.appendChild(img)
       memberImage.classList.toggle('.modal')
       console.log('Modal')
     }
