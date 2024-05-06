@@ -612,7 +612,7 @@ let members = `[
   },
   {
     "firstname": "Emma", 
-    "lastname": "",
+    "lastname": "Paz",
     "role": "Covenant Member",
     "date": "2024",
     "gender": "woman"
@@ -633,7 +633,7 @@ let members = `[
   },
   {
     "firstname": "Joan", 
-    "lastname": "",
+    "lastname": "Reyes",
     "role": "Covenant Member",
     "date": "2024",
     "gender": "woman"
