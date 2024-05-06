@@ -692,10 +692,7 @@ const showAllMembers = () => {
       console.log('Modal')
     }
 
-    memberImage.addEventListener('click', () => {
-      memberImage.classList.toggle('.modal')
-      console.log('Modal')
-    })
+    memberImage.addEventListener('click', showModal)
       
 }
 
