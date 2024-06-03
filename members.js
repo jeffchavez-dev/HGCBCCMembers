@@ -639,15 +639,15 @@ let members = `[
     "gender": "woman"
   },
   {
-    "firstname": "Joan", 
+    "firstname": "Julietta ", 
     "lastname": "Reyes",
     "role": "Covenant Member",
     "date": "2024",
     "gender": "woman"
   },
   {
-    "firstname": "Joan", 
-    "lastname": "Reyes",
+    "firstname": "Maria Christine", 
+    "lastname": "Velo",
     "role": "Covenant Member",
     "date": "2024",
     "gender": "woman"
