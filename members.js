@@ -608,6 +608,7 @@ let members = `[
     "lastname": "Lasco",
     "role": "Covenant Member",
     "date": "2024",
+    "month": "May",
     "gender": "woman"
   },
   {
@@ -615,6 +616,7 @@ let members = `[
     "lastname": "Paz",
     "role": "Covenant Member",
     "date": "2024",
+    "month": "May",
     "gender": "woman"
   },
   {
@@ -622,6 +624,7 @@ let members = `[
     "lastname": "Paz",
     "role": "Covenant Member",
     "date": "2024",
+    "month": "May",
     "gender": "men"
   },
   {
@@ -629,6 +632,7 @@ let members = `[
     "lastname": "Reyes Jr.",
     "role": "Covenant Member",
     "date": "2024",
+    "month": "May",
     "gender": "men"
   },
   {
@@ -636,13 +640,15 @@ let members = `[
     "lastname": "Reyes",
     "role": "Covenant Member",
     "date": "2024",
+    "month": "May",
     "gender": "woman"
   },
   {
-    "firstname": "Julietta ", 
-    "lastname": "Reyes",
+    "firstname": "Julieta", 
+    "lastname": "Fajarda",
     "role": "Covenant Member",
     "date": "2024",
+    "month": "June",
     "gender": "woman"
   },
   {
@@ -650,6 +656,7 @@ let members = `[
     "lastname": "Velo",
     "role": "Covenant Member",
     "date": "2024",
+    "month": "June",
     "gender": "woman"
   },
   {
@@ -657,6 +664,7 @@ let members = `[
     "lastname": "Reyes",
     "role": "Covenant Member",
     "date": "2024",
+    "month": "June",
     "gender": "woman"
   }
 
