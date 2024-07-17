@@ -2,29 +2,28 @@
 
 /*
 Alredy covenanted
-      ,
-{
-    "firstname": "Randy",
-    "lastname": "Marchadesch",
-    "role": "Associate Member",
-    "date": "2021",
-    "gender": "men"
-  },
-,
-{
-    "firstname": "Kristine",
-    "lastname": "Duhaylungsod",
-    "role": "Associate Member",
-    "date": "September 2021",
-    "gender": "woman"
-  },
-{
-    "firstname": "Tim",
-    "lastname": "Duhaylungsod",
-    "role": "Associate Member",
-    "date": "September 2021",
-    "gender": "men"
-  }
+
+        {
+            "firstname": "Randy",
+            "lastname": "Marchadesch",
+            "role": "Associate Member",
+            "date": "2021",
+            "gender": "men"
+          },
+        {
+            "firstname": "Kristine",
+            "lastname": "Duhaylungsod",
+            "role": "Associate Member",
+            "date": "September 2021",
+            "gender": "woman"
+          },
+        {
+            "firstname": "Tim",
+            "lastname": "Duhaylungsod",
+            "role": "Associate Member",
+            "date": "September 2021",
+            "gender": "men"
+          }
 
 
 
