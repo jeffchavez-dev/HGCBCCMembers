@@ -31,6 +31,36 @@
     "date": "December 2021",
     "gender": "woman"
   }
+
+  Resigned July 17, 2024  ,
+  {
+    "firstname": "John Philip",
+    "lastname": "Erauda",
+    "role": "Covenant Member",
+    "date": " September 2022",
+    "gender": "men"
+  },
+  {
+    "firstname": "Mary Uson",
+    "lastname": "Erauda",
+    "role": "Covenant Member",
+    "date": " September 2022",
+    "gender": "woman"
+  },
+  {
+    "firstname": "Steven James",
+    "lastname": "Llabres",
+    "role": "Covenant Member",
+    "date": " September 2022",
+    "gender": "men"
+  },
+  {
+    "firstname": "Maribel",
+    "lastname": "Llabres",
+    "role": "Covenant Member",
+    "date": " September 2022",
+    "gender": "woman"
+  }
 */
 
 let members = `[
@@ -433,34 +463,6 @@ let members = `[
     "role": "Covenant Member",
     "date": " January 2022",
     "gender": "men"
-  },
-  {
-    "firstname": "John Philip",
-    "lastname": "Erauda",
-    "role": "Covenant Member",
-    "date": " September 2022",
-    "gender": "men"
-  },
-  {
-    "firstname": "Mary Uson",
-    "lastname": "Erauda",
-    "role": "Covenant Member",
-    "date": " September 2022",
-    "gender": "woman"
-  },
-  {
-    "firstname": "Steven James",
-    "lastname": "Llabres",
-    "role": "Covenant Member",
-    "date": " September 2022",
-    "gender": "men"
-  },
-  {
-    "firstname": "Maribel",
-    "lastname": "Llabres",
-    "role": "Covenant Member",
-    "date": " September 2022",
-    "gender": "woman"
   },
   {
     "firstname": "Ronald Jr.",
