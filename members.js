@@ -1,6 +1,19 @@
 
 
 /*
+Alredy covenanted
+      ,
+{
+    "firstname": "Randy",
+    "lastname": "Marchadesch",
+    "role": "Associate Member",
+    "date": "2021",
+    "gender": "men"
+  },
+
+
+
+  
   { Deceased
     "firstname": "Fanny",
     "lastname": "Guarino",
@@ -386,14 +399,7 @@ let members = `[
     "role": "Associate Member",
     "date": "2021",
     "gender": "men"
-  },
-{
-    "firstname": "Randy",
-    "lastname": "Marchadesch",
-    "role": "Associate Member",
-    "date": "2021",
-    "gender": "men"
-  },
+  }
 {
     "firstname": "Armel Jay",
     "lastname": "Mercado",
