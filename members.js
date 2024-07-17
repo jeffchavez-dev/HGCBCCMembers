@@ -33,34 +33,42 @@
   }
 
   Resigned July 17, 2024  ,
-  {
-    "firstname": "John Philip",
-    "lastname": "Erauda",
-    "role": "Covenant Member",
-    "date": " September 2022",
-    "gender": "men"
-  },
-  {
-    "firstname": "Mary Uson",
-    "lastname": "Erauda",
-    "role": "Covenant Member",
-    "date": " September 2022",
-    "gender": "woman"
-  },
-  {
-    "firstname": "Steven James",
-    "lastname": "Llabres",
-    "role": "Covenant Member",
-    "date": " September 2022",
-    "gender": "men"
-  },
-  {
-    "firstname": "Maribel",
-    "lastname": "Llabres",
-    "role": "Covenant Member",
-    "date": " September 2022",
-    "gender": "woman"
-  }
+      {
+        "firstname": "John Philip",
+        "lastname": "Erauda",
+        "role": "Covenant Member",
+        "date": " September 2022",
+        "gender": "men"
+      },
+      {
+        "firstname": "Mary Uson",
+        "lastname": "Erauda",
+        "role": "Covenant Member",
+        "date": " September 2022",
+        "gender": "woman"
+      },
+      {
+        "firstname": "Steven James",
+        "lastname": "Llabres",
+        "role": "Covenant Member",
+        "date": " September 2022",
+        "gender": "men"
+      },
+      {
+        "firstname": "Maribel",
+        "lastname": "Llabres",
+        "role": "Covenant Member",
+        "date": " September 2022",
+        "gender": "woman"
+      }
+              ,
+      {
+          "firstname": "Jordan",
+          "lastname": "Ravanes",
+          "role": "Covenant Member",
+          "date": "2018",
+          "gender": "men"
+        }
 */
 
 let members = `[
@@ -190,13 +198,6 @@ let members = `[
     "role": "Covenant Member",
     "date": "2017",
     "gender": "woman"
-  },
-{
-    "firstname": "Jordan",
-    "lastname": "Ravanes",
-    "role": "Covenant Member",
-    "date": "2018",
-    "gender": "men"
   },
 {
     "firstname": "Jerry",
