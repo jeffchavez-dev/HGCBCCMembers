@@ -60,15 +60,21 @@
         "role": "Covenant Member",
         "date": " September 2022",
         "gender": "woman"
-      }
-              ,
-      {
+      },
+        {
           "firstname": "Jordan",
           "lastname": "Ravanes",
           "role": "Covenant Member",
           "date": "2018",
           "gender": "men"
-        }
+        },
+      {
+        "firstname": "Darren",
+        "lastname": "Delbo",
+        "role": "Covenant Member",
+        "date": "June 2023",
+        "gender": "men"
+      }
 */
 
 let members = `[
@@ -556,13 +562,6 @@ let members = `[
     "role": "Covenant Member",
     "date": "June 2023",
     "gender": "woman"
-  },
-  {
-    "firstname": "Darren",
-    "lastname": "Delbo",
-    "role": "Covenant Member",
-    "date": "June 2023",
-    "gender": "men"
   },
   {
     "firstname": "Jeffrey 'Popoy'",
