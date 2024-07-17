@@ -412,7 +412,7 @@ let members = `[
           "role": "Associate Member",
           "date": "2021",
           "gender": "men"
-        }
+        },
       {
           "firstname": "Armel Jay",
           "lastname": "Mercado",
