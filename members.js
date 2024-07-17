@@ -10,10 +10,24 @@ Alredy covenanted
     "date": "2021",
     "gender": "men"
   },
+,
+{
+    "firstname": "Kristine",
+    "lastname": "Duhaylungsod",
+    "role": "Associate Member",
+    "date": "September 2021",
+    "gender": "woman"
+  },
+{
+    "firstname": "Tim",
+    "lastname": "Duhaylungsod",
+    "role": "Associate Member",
+    "date": "September 2021",
+    "gender": "men"
+  }
 
 
 
-  
   { Deceased
     "firstname": "Fanny",
     "lastname": "Guarino",
@@ -412,20 +426,6 @@ let members = `[
     "lastname": "Zambrano",
     "role": "Covenant Member",
     "date": "2021",
-    "gender": "men"
-  },
-{
-    "firstname": "Kristine",
-    "lastname": "Duhaylungsod",
-    "role": "Associate Member",
-    "date": "September 2021",
-    "gender": "woman"
-  },
-{
-    "firstname": "Tim",
-    "lastname": "Duhaylungsod",
-    "role": "Associate Member",
-    "date": "September 2021",
     "gender": "men"
   },
 {
