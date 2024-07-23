@@ -802,7 +802,7 @@ sortData = () => {
     // If sorting by date, extract the year part for comparison
     if (sortBy === 'date') {
       const yearA = typeof a[sortBy] === 'string' ? parseInt(a[sortBy].split(' ')[1]) : a[sortBy];
-      const yearB = parseInt(b[sortBy].split(' ')[1]); // Extract year from date string
+      const yearB = typeof b[sortBy] === 'string' ? parseInt(b[sortBy].split(' ')[1]) : b[sortBy]; // Extract year from date string
       console.log('Year A:', yearA);
       console.log('Year B:', yearB);
       if (yearA < yearB) return -1;
