@@ -801,7 +801,7 @@ sortData = () => {
   membersNew.sort((a,b) => {
     // If sorting by date, extract the year part for comparison
     if (sortBy === 'date') {
-      const yearA = parseInt(a[sortBy].split(' ')[1]); // Extract year from date string
+      const yearA = typeof a[sortBy] === 'string' ? parseInt(a[sortBy].split(' ')[1]) : a[sortBy];
       const yearB = parseInt(b[sortBy].split(' ')[1]); // Extract year from date string
       console.log('Year A:', yearA);
       console.log('Year B:', yearB);
