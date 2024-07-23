@@ -600,21 +600,24 @@ let members = `[
           "firstname": "Jessica",
           "lastname": "Brun",
           "role": "Covenant Member",
-          "date": "August 2023",
+          "month" : "August",
+          "date": "2023",
           "gender": "woman"
         },
         {
           "firstname": "Allaine",
           "lastname": "Mercado",
           "role": "Covenant Member",
-          "date": "August 2023",
+          "month" : "August",
+          "date": "2023",
           "gender": "woman"
         },
         {
           "firstname": "Angelica Rosh",
           "lastname": "Padua",
           "role": "Covenant Member",
-          "date": "August 2023",
+          "month" : "August",
+          "date": "2023",
           "gender": "woman"
         },
         {
