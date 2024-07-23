@@ -101,6 +101,20 @@ Alredy covenanted
         "date": "June 2023",
         "gender": "men"
       }
+
+
+
+        // {    "firstname": "Christian",
+        //     "lastname": "Francisco",
+        //     "role": "Deacon, Covenant Member",
+        //     "date": "2021"
+        //   },
+        // {
+        //     "firstname": "Shana",
+        //     "lastname": "Francisco",
+        //     "role": "Covenant Member",
+        //     "date": "2021"
+        //   },
 */
 
 let members = `[
