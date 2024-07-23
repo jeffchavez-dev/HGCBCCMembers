@@ -544,14 +544,16 @@ let members = `[
           "firstname": "Lawrence",
           "lastname": "Castillo",
           "role": "Covenant Member",
-          "date": " January 2023",
+          "month" : "January",
+          "date": "2023",
           "gender": "men"
         },
         {
           "firstname": "Jewel",
           "lastname": "Rodriguez",
           "role": "Covenant Member",
-          "date": "May 2023",
+          "month" : "May",
+          "date": "2023",
           "gender": "men"
         },
         {
