@@ -801,15 +801,27 @@ sortData = () => {
   membersNew.sort((a,b) => {
     // If sorting by date, extract the year part for comparison
     if (sortBy === 'date') {
-      const splitValueA = a[sortBy].split(' ');
-      const yearA = splitValueA.length > 1 ? parseInt(a[sortBy].split(' ')[1]) : a[sortBy];
-      const splitValueB = b[sortBy].split(' ');
-      const yearB = splitValueB.length > 1 ? parseInt(b[sortBy].split(' ')[1]) : b[sortBy]; // Extract year from date string
-      console.log('Year A:', yearA);
-      console.log('Year B:', yearB);
-      if (yearA < yearB) return -1;
-      if (yearA > yearB) return 1;
-      return 0;
+      // Handle potential parsing errors (optional)
+        let yearA, yearB;
+        try {
+          const splitValueA = a[sortBy].split(' ');
+          yearA = splitValueA.length > 1 ? parseInt(splitValueA[1]) : null; // Set yearA to null if parsing fails
+
+          const splitValueB = b[sortBy].split(' ');
+          yearB = splitValueB.length > 1 ? parseInt(splitValueB[1]) : null; // Set yearB to null if parsing fails
+        } catch (error) {
+          console.error('Error parsing date strings:', error);
+          // Handle error (e.g., return default value or log error)
+        }
+
+        // Compare years or use alternative date comparison if applicable
+        if (yearA !== null && yearB !== null) {
+          if (yearA < yearB) return -1;
+          if (yearA > yearB) return 1;
+        } else {
+          // Handle cases where parsing failed (optional, based on your logic)
+        }
+        return 0;
     } else {
        switch (sortBy) {
           case "firstName":
