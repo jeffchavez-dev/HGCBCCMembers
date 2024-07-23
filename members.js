@@ -804,19 +804,7 @@ sortData = () => {
             console.log('data sorted')
             return a.role - b.role;
        }
-    }
-    // switch (sortBy) {
-    //   case "firstName":
-    //     return a.firstname.localeCompare(b.firstname);
-    //   case "lastName":
-    //     return a.lastname.localeCompare(b.lastname);
-    //   case "date":
-    //     return a.date.localeCompare(b.date)
-    //   default:
-        
-    //     return a.role - b.role;
-    // }
-    
+      }   
   })
 
   showSortedData(membersNew)
