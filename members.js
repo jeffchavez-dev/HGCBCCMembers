@@ -830,31 +830,3 @@ sorter.addEventListener('change', sortData)
 
 // searchYear.addEventListener('change', displayMatches(value2));
 
-
-
-
-
-
-// console.log(membersNew[1])
-// const ordered = membersNew.sort((a, b) => {
-//   if(a.date > b.date) {
-//     return 1;
-//   } else {
-//     return -1;
-//   }
-// })
-
-// console.table(ordered);
-
-
-  //     "firstname": "Christian",
-  //     "lastname": "Francisco",
-  //     "role": "Deacon, Covenant Member",
-  //     "date": "2021"
-  //   },
-  // {
-  //     "firstname": "Shana",
-  //     "lastname": "Francisco",
-  //     "role": "Covenant Member",
-  //     "date": "2021"
-  //   },
