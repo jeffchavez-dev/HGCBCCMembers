@@ -558,42 +558,48 @@ let members = `[
           "firstname": "Marissa 'Issa'",
           "lastname": "Rodriguez",
           "role": "Covenant Member",
-          "date": "May 2023",
+          "month" : "May",
+          "date": "2023",
           "gender": "woman"
         },
         {
           "firstname": "Aizalee",
           "lastname": "Dawal",
           "role": "Covenant Member",
-          "date": "May 2023",
+          "month" : "May",
+          "date": "2023",
           "gender": "woman"
         },
         {
           "firstname": "Elijah",
           "lastname": "Aquino",
           "role": "Covenant Member",
-          "date": "June 2023",
+          "month" : "June",
+          "date": "2023",
           "gender": "men"
         },
         {
           "firstname": "Arrahjane Grace",
           "lastname": "Aquino",
           "role": "Covenant Member",
-          "date": "June 2023",
+          "month" : "June",
+          "date": "2023",
           "gender": "woman"
         },
         {
           "firstname": "Jeffrey 'Popoy'",
           "lastname": "Nilo",
           "role": "Covenant Member",
-          "date": "August 2023",
+          "month" : "August",
+          "date": "2023",
           "gender": "men"
         },
         {
           "firstname": "Rose Anne Margaret",
           "lastname": "Nilo",
           "role": "Covenant Member",
-          "date": "August 2023",
+          "month" : "August",
+          "date": "2023",
           "gender": "woman"
         },
         {
