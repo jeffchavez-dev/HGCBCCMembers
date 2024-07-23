@@ -621,7 +621,8 @@ let members = `[
           "firstname": "Janielle", 
           "lastname": "Fajardo",
           "role": "Covenant Member",
-          "date": "October 2023",
+          "month" : "October",
+          "date": "2023",
           "gender": "woman"
         },
         {
