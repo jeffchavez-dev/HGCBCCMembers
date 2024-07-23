@@ -473,28 +473,32 @@ let members = `[
           "firstname": "Aries Jake",
           "lastname": "Montilla",
           "role": "Covenant Member",
-          "date": "December 2021",
+          "month" : "December",
+          "date": "2021",
           "gender": "men"
         },
       {
           "firstname": "Regina",
           "lastname": "Montilla",
           "role": "Covenant Member",
-          "date": "December 2021",
+          "month" : "December",
+          "date": "2021",
           "gender": "woman"
         },
         {
           "firstname": "Vince",
           "lastname": "Tombaga",
           "role": "Covenant Member",
-          "date": " January 2022",
+          "month" : "January",
+          "date": "2022",
           "gender": "men"
         },
         {
           "firstname": "Ronald Jr.",
           "lastname": "Caceres",
           "role": "Covenant Member",
-          "date": " September 2022",
+          "month" : "September",
+          "date": "2022",
           "gender": "men"
         },
         {
