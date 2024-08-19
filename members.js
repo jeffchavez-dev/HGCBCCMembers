@@ -545,14 +545,6 @@ let members = `[
           "date": "2022",
           "gender": "men"
         },
-        {
-          "firstname": "Gerry",
-          "lastname": "Guarino",
-          "role": "Covenant Member",
-          "month" : "November",
-          "date": "2022",
-          "gender": "men"
-        },
 
         {
           "firstname": "Lawrence",
