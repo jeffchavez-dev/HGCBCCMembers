@@ -115,6 +115,20 @@ Alredy covenanted
         //     "role": "Covenant Member",
         //     "date": "2021"
         //   },
+
+
+/// 
+        ,
+        {
+          "firstname": "Gerry",
+          "lastname": "Guarino",
+          "role": "Non-Member",
+          "month" : "August",
+          "date": "2024",
+          "gender": "men",
+          "reason": "Excommunicated"
+
+        }
 */
 
 let members = `[
