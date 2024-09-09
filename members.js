@@ -129,6 +129,26 @@ Alredy covenanted
           "reason": "Excommunicated"
 
         }
+
+
+Removed: 09092024
+        ,
+        {
+          "firstname": "Jeffrey 'Popoy'",
+          "lastname": "Nilo",
+          "role": "Covenant Member",
+          "month" : "August",
+          "date": "2023",
+          "gender": "men"
+        },
+        {
+          "firstname": "Rose Anne Margaret",
+          "lastname": "Nilo",
+          "role": "Covenant Member",
+          "month" : "August",
+          "date": "2023",
+          "gender": "woman"
+        }
 */
 
 let members = `[
