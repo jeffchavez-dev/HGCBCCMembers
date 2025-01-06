@@ -732,7 +732,6 @@ let members = `[
           "month": "November",
           "gender": "men"
         }
-
         
       ]`
 
