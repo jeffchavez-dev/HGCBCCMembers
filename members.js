@@ -104,12 +104,13 @@ Alredy covenanted
 
 
 
-        // {    "firstname": "Christian",
+        // { Transferred: 2023
+        //     "firstname": "Christian",
         //     "lastname": "Francisco",
         //     "role": "Deacon, Covenant Member",
         //     "date": "2021"
         //   },
-        // {
+        // {  Transferred: 2023
         //     "firstname": "Shana",
         //     "lastname": "Francisco",
         //     "role": "Covenant Member",
@@ -131,9 +132,9 @@ Alredy covenanted
         }
 
 
-Removed: 09092024
+
         ,
-        {
+        { Removed: 09092024
           "firstname": "Jeffrey 'Popoy'",
           "lastname": "Nilo",
           "role": "Covenant Member",
@@ -141,7 +142,7 @@ Removed: 09092024
           "date": "2023",
           "gender": "men"
         },
-        {
+        { Removed: 09092024
           "firstname": "Rose Anne Margaret",
           "lastname": "Nilo",
           "role": "Covenant Member",
@@ -155,7 +156,8 @@ let members = `[
         {
           "firstname": "Jeremiah",
           "lastname": "Jangad",
-          "role": "Pastor, Covenant Member",
+          // removed from the pastorate due to abandonment of the church and moral sins
+          "role": "Covenant Member",
           "date": "2013",
           "gender": "men"
         },
