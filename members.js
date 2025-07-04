@@ -150,6 +150,36 @@ Alredy covenanted
           "date": "2023",
           "gender": "woman"
         }
+
+
+        { Withdrawn from Membership: June 2025
+          "firstname": "Lorenzo",
+          "lastname": "Tating Jr.",
+          "role": "Deacon, Covenant Member",
+          "date": "2015",
+          "gender": "men"
+        },
+      {  Withdrawn from Membership: June 2025
+          "firstname": "Riza",
+          "lastname": "Tating",
+          "role": "Covenant Member",
+          "date": "2015",
+          "gender": "woman"
+        },
+      {  Withdrawn from Membership: May 2025
+          "firstname": "Jeff",
+          "lastname": "Chavez",
+          "role": "Deacon, Covenant Member",
+          "date": "2016",
+          "gender": "men"
+        },
+      { Withdrawn from Membership: May 2025
+          "firstname": "Gloryben",
+          "lastname": "Chavez",
+          "role": "Covenant Member",
+          "date": "2016",
+          "gender": "woman"
+        },
 */
 
 let members = `[
@@ -183,34 +213,7 @@ let members = `[
           "date": "2014",
           "gender": "men"
         },
-      {
-          "firstname": "Lorenzo",
-          "lastname": "Tating Jr.",
-          "role": "Deacon, Covenant Member",
-          "date": "2015",
-          "gender": "men"
-        },
-      {
-          "firstname": "Riza",
-          "lastname": "Tating",
-          "role": "Covenant Member",
-          "date": "2015",
-          "gender": "woman"
-        },
-      {
-          "firstname": "Jeff",
-          "lastname": "Chavez",
-          "role": "Deacon, Covenant Member",
-          "date": "2016",
-          "gender": "men"
-        },
-      {
-          "firstname": "Gloryben",
-          "lastname": "Chavez",
-          "role": "Covenant Member",
-          "date": "2016",
-          "gender": "woman"
-        },
+      
       {
           "firstname": "Eliseo",
           "lastname": "Openio",
