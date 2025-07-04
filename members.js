@@ -117,8 +117,6 @@ Alredy covenanted
         //     "date": "2021"
         //   },
 
-
-/// 
         ,
         {
           "firstname": "Gerry",
@@ -186,7 +184,7 @@ let members = `[
         {
           "firstname": "Jeremiah",
           "lastname": "Jangad",
-          // removed from the pastorate due to abandonment of the church and moral sins
+          removed from the pastorate due to abandonment of the church and moral sins
           "role": "Covenant Member",
           "date": "2013",
           "gender": "men"
@@ -197,7 +195,6 @@ let members = `[
           "role": "Covenant Member",
           "date": "2013",
           "gender": "woman"
-          
         },
       {
           "firstname": "Joenel",
