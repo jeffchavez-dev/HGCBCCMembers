@@ -282,6 +282,23 @@ Alredy covenanted
           "date": "2022",
           "gender": "men"
         },
+
+        {Withdrawn from the membership: July 2025
+          "firstname": "Peter",
+          "lastname": "Zambrano",
+          "role": "Covenant Member",
+          "date": "2021",
+          "gender": "men"
+        },
+
+        {Withdrawn from the membership: July 2025
+          "firstname": "Angelica",
+          "lastname": "Zambrano",
+          "role": "Covenant Member",
+          "month" : "December",
+          "date": "2021",
+          "gender": "woman"
+        },
 */
 
 let members = `[
@@ -501,13 +518,7 @@ let members = `[
           "date": "2021",
           "gender": "men"
         },
-      {
-          "firstname": "Peter",
-          "lastname": "Zambrano",
-          "role": "Covenant Member",
-          "date": "2021",
-          "gender": "men"
-        },
+
       {
           "firstname": "Flordeliz",
           "lastname": "Gonzales",
@@ -516,14 +527,7 @@ let members = `[
           "date": "2021",
           "gender": "woman"
         },
-      {
-          "firstname": "Angelica",
-          "lastname": "Zambrano",
-          "role": "Covenant Member",
-          "month" : "December",
-          "date": "2021",
-          "gender": "woman"
-        },
+
       {
           "firstname": "Ramon",
           "lastname": "Musngi",
