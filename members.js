@@ -273,6 +273,15 @@ Alredy covenanted
           "date": "2017",
           "gender": "woman"
         },
+
+        {Withdrawn from the membership: July 2025
+          "firstname": "Kiel Cedric",
+          "lastname": "Ramos",
+          "role": "Covenant Member",
+          "month" : "November",
+          "date": "2022",
+          "gender": "men"
+        },
 */
 
 let members = `[
@@ -571,14 +580,7 @@ let members = `[
           "date": "2022",
           "gender": "woman"
         },
-        {
-          "firstname": "Kiel Cedric",
-          "lastname": "Ramos",
-          "role": "Covenant Member",
-          "month" : "November",
-          "date": "2022",
-          "gender": "men"
-        },
+
         {
           "firstname": "Jon Emil",
           "lastname": "Bacus",
