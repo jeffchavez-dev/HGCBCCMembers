@@ -264,6 +264,15 @@ Alredy covenanted
           "gender": "woman"
         },
           
+           
+      {Withdrawn from the membership: July 2025
+  
+          "firstname": "Cristina",
+          "lastname": "Olo",
+          "role": "Covenant Member",
+          "date": "2017",
+          "gender": "woman"
+        },
 */
 
 let members = `[
@@ -318,14 +327,7 @@ let members = `[
           "date": "2016",
           "gender": "woman"
         },
-     
-      {
-          "firstname": "Cristina",
-          "lastname": "Olo",
-          "role": "Covenant Member",
-          "date": "2017",
-          "gender": "woman"
-        },
+
       {
           "firstname": "Jerry",
           "lastname": "del Mundo",
