@@ -299,6 +299,13 @@ Alredy covenanted
           "date": "2021",
           "gender": "woman"
         },
+        {Withdrawn from the membership: July 2025
+          "firstname": "Ma. Jesus",
+          "lastname": "Solidum",
+          "role": "Covenant Member",
+          "date": "2021",
+          "gender": "woman"
+        },
 */
 
 let members = `[
@@ -453,13 +460,7 @@ let members = `[
           "date": "2021",
           "gender": "woman"
         },
-      {
-          "firstname": "Ma. Jesus",
-          "lastname": "Solidum",
-          "role": "Covenant Member",
-          "date": "2021",
-          "gender": "woman"
-        },
+
       {
           "firstname": "Stephanie Anne",
           "lastname": "Solidum",
